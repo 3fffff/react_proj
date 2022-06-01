@@ -1,0 +1,15 @@
+.article{
+  background:#fff;
+  border-radius:20px;
+  min-width:600px;
+  padding:20px 55px;
+  /*display:flex;
+  justify-content: center;*/
+  &Title{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &Text{
+    text-align:center;
+  }
+}

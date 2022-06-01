@@ -1,0 +1,20 @@
+.inputPlus{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 45px;
+    margin-bottom:15px;
+    &Value{
+        border-radius: 5px;
+    }
+    &Button{
+        background:#3f72af;
+        border-radius: 5px;
+        border:none
+    }
+    &Button::before{
+        content:'+';
+        font-size:25px;
+        font-weight:400;
+        color:#fff
+    }
+}
