@@ -1,0 +1,12 @@
+$shapes_catalog $mol_page
+	title @ \Shapes
+	form*? true
+	color*? true
+	bright*? true
+	body /
+		<= Items $mol_gallery
+			items <= items /
+				<= Item*0 $shapes_shape_card
+					form <= item_form* \circle
+					color <= item_color* \grey
+					bright <= item_bright* \light

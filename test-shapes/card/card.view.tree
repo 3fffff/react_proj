@@ -1,0 +1,10 @@
+$shapes_shape_card $mol_view
+	attr *
+		^
+		shapes_shape_card_form <= form \circle
+		shapes_shape_card_bright <= bright \light
+	style *
+		^
+		backgroundColor <= color \grey
+	minimal_width 80
+	minimal_height 80
